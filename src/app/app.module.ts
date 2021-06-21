@@ -7,6 +7,8 @@ import { ItemComponent } from './components/item/item.component';
 import { QtyComponent } from './components/qty/qty.component';
 import { LineComponent } from './components/line/line.component';
 import { DonateComponent } from './components/donate/donate.component';
+import { AmountButtonComponent } from './components/amount-button/amount-button.component';
+import { CustomAmountComponent } from './components/custom-amount/custom-amount.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { DonateComponent } from './components/donate/donate.component';
     QtyComponent,
     LineComponent,
     DonateComponent,
+    AmountButtonComponent,
+    CustomAmountComponent,
   ],
   imports: [
     BrowserModule

@@ -1,7 +1,11 @@
 <div class="container">
     <h1 class="title">{{name}}</h1>
     <p>{{desc}}</p>
-    <!--color of notice is changed depending on number of hours left for sale-->
-    <p [ngStyle]= "{'color': noticeColor}" class="notice">{{saleTime}}</p>
-    <span class="price">{{costOut}}</span> <span class="buffer"></span> <app-qty></app-qty>
+    <br>
+    <p  class="donatecta">I want to donate</p>
+    <app-amount-button [amount]="50"></app-amount-button>
+    <app-amount-button [amount]="100"></app-amount-button>
+    <app-amount-button [amount]="200"></app-amount-button>
+    <app-amount-button [amount]="500"></app-amount-button>
+    <app-custom-amount></app-custom-amount>
 </div>

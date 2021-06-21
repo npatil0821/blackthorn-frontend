@@ -2,11 +2,11 @@
 .container {
     position: relative;
     width: 821px;
-    height: 820px;
     margin-left: 151px;
     margin-top: 131px;
     padding-left: 60px;
     padding-top: 71px;
+    padding-bottom: 61px;
     background: #FFFFFF;
     box-sizing: 0px 2px 3px rgba(0, 0, 0, 16);
     border-radius: 4px

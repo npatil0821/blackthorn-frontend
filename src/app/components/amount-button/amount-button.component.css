@@ -1,0 +1,11 @@
+.btn {
+    height: 32px;
+    font-size: 16px;
+    font-family: SalesforceSans-Regular;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 5px 11px 6px 8px;
+    margin-right: 12px;
+}
