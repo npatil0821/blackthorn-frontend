@@ -1,0 +1,30 @@
+.container {
+    display: block;
+    position: relative;
+    width: 701px;
+}
+
+/*styling for the title*/
+.title {
+    font-family: SalesforceSans-bold;
+    font-size: 18px;
+}
+
+/*styling for the price*/
+.price {
+    font-family: SalesforceSans-bold;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/*styling for the time left for sale*/
+.notice {
+    font-family: SalesforceSans-bold;
+    font-size: 13px;
+}
+
+/*put space between price and select element*/
+.buffer {
+    display: inline-block;
+    width: 20px;
+}

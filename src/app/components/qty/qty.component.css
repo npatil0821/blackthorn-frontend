@@ -1,0 +1,25 @@
+/*general styling for select element*/
+.dropdown {
+    height: 32px;
+    width: 61px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #706E6B;
+
+    text-indent: 5px; /*moves text away from left a bit*/
+
+    /*removes arrow to add custom image*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /*including custom arrow for dropdown*/
+    background-image: url("../../../../image_assets/IconColor.png");
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 50%;
+}
